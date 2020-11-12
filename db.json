@@ -1,78 +1,83 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "nome": "Tarefaaaaaa 1",
-            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "status": "Tarefas Pendentes",
-            "prioridadeCor": {
-                "nomeCor": "Alta",
-                "prioridadeCor": "circle-danger"
+    "tasks": {
+        "pendentes": [
+            {
+                "id": 1,
+                "nome": "Tarefaaaaaa 1",
+                "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "status": "Tarefas Pendentes",
+                "prioridadeCor": {
+                    "nomeCor": "Alta",
+                    "prioridadeCor": "circle-danger"
+                },
+                "data": "1994-05-25",
+                "tarefaFinalizada": false
             },
-            "data": "1994-05-25",
-            "tarefaFinalizada": false
-        },
-        {
-            "id": 2,
-            "nome": "Tarefa 2",
-            "descricao": "Vestibulum sit amet tincidunt lorem, at aliquam lectus.",
-            "status": "Tarefas Excluídas",
-            "prioridadeCor": {
-                "nomeCor": "Média",
-                "prioridadeCor": "circle-warning"
+            {
+                "id": 2,
+                "nome": "Tarefa 2",
+                "descricao": "Vestibulum sit amet tincidunt lorem, at aliquam lectus.",
+                "status": "Tarefas Excluídas",
+                "prioridadeCor": {
+                    "nomeCor": "Média",
+                    "prioridadeCor": "circle-warning"
+                },
+                "data": "2020-03-05",
+                "tarefaFinalizada": false
+            }
+        ],
+        "realizadas": [
+            {
+                "id": 3,
+                "nome": "Tarefa 3",
+                "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
+                "status": "Tarefas Realizadas",
+                "prioridadeCor": {
+                    "nomeCor": "Baixa",
+                    "prioridadeCor": "circle-success"
+                },
+                "data": "2020-09-16",
+                "tarefaFinalizada": true
             },
-            "data": "2020-03-05",
-            "tarefaFinalizada": false
-        },
-        {
-            "id": 3,
-            "nome": "Tarefa 3",
-            "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
-            "status": "Tarefas Realizadas",
-            "prioridadeCor": {
-                "nomeCor": "Baixa",
-                "prioridadeCor": "circle-success"
+            {
+                "id": 4,
+                "nome": "Amanda Tarefa",
+                "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
+                "status": "Tarefas Realizadas",
+                "prioridadeCor": {
+                    "nomeCor": "Alta",
+                    "prioridadeCor": "circle-danger"
+                },
+                "data": "2020-06-20",
+                "tarefaFinalizada": true
             },
-            "data": "2020-09-16",
-            "tarefaFinalizada": true
-        },
-        {
-            "id": 4,
-            "nome": "Amanda Tarefa",
-            "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
-            "status": "Tarefas Realizadas",
-            "prioridadeCor": {
-                "nomeCor": "Alta",
-                "prioridadeCor": "circle-danger"
+            {
+                "id": 5,
+                "nome": "Nátali Tarefa",
+                "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
+                "status": "Tarefas Realizadas",
+                "prioridadeCor": {
+                    "nomeCor": "Baixa",
+                    "prioridadeCor": "circle-success"
+                },
+                "data": "2020-02-01",
+                "tarefaFinalizada": true
             },
-            "data": "2020-06-20",
-            "tarefaFinalizada": true
-        },
-        {
-            "id": 5,
-            "nome": "Nátali Tarefa",
-            "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
-            "status": "Tarefas Realizadas",
-            "prioridadeCor": {
-                "nomeCor": "Baixa",
-                "prioridadeCor": "circle-success"
-            },
-            "data": "2020-02-01",
-            "tarefaFinalizada": true
-        },
-        {
-            "id": 6,
-            "nome": "Camila Tarefa",
-            "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
-            "status": "Tarefas Realizadas",
-            "prioridadeCor": {
-                "nomeCor": "Média",
-                "prioridadeCor": "circle-warning"
-            },
-            "data": "2020-03-22",
-            "tarefaFinalizada": true
-        }
-    ],
+            {
+                "id": 6,
+                "nome": "Camila Tarefa",
+                "descricao": "Ut blandit leo eget ante scelerisque, ut vulputate ipsum lobortis.",
+                "status": "Tarefas Realizadas",
+                "prioridadeCor": {
+                    "nomeCor": "Média",
+                    "prioridadeCor": "circle-warning"
+                },
+                "data": "2020-03-22",
+                "tarefaFinalizada": true
+            }
+        ],
+        "excluidas": []
+    },
     "classificacao": [
         {
             "nomeCor": "Alta",
